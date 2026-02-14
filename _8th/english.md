@@ -1,3 +1,4 @@
+<div style="margin-left: 220px;">
 ---
 title: "8th Grade English"
 permalink: /8th/english/
@@ -14,3 +15,4 @@ sidebar:
 - **Assignment {{ post.assignment_number }}:**  
   [{{ post.title }}]({{ post.url }})
 {% endfor %}
+</div>
