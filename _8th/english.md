@@ -5,8 +5,9 @@ permalink: /8th/english/
 
 ## Assignments
 
-{% for post in site.posts %}
-  {% if post.title %}
-- [{{ post.title }}]({{ post.url }})
-  {% endif %}
+{% assign english_posts = site.posts | where: "grade", 8 | where: "subject", "english" | sort: "assignment_number" %}
+
+{% for post in english_posts %}
+- **Assignment {{ post.assignment_number }}:**  
+  [{{ post.title }}]({{ post.url }})
 {% endfor %}
