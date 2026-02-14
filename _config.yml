@@ -21,3 +21,7 @@ defaults:
       layout: single
       classes: wide
       show_date: true
+      
+collections:
+  8th:
+    output: true
