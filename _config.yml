@@ -1,1 +1,18 @@
+title: your name
+description: school assignments and essays
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-include-cache
 
+author:
+  name: your name
+
+minimal_mistakes_skin: default
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      classes: wide
