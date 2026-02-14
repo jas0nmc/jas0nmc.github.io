@@ -4,12 +4,12 @@ permalink: /8th/english/
 layout: single
 ---
 
-<div style="display: flex;">
+<div style="display: flex; flex-wrap: nowrap;">
 
-<!-- Left sidebar -->
-<div style="width: 200px; margin-right: 20px;">
+<!-- Sidebar -->
+<div style="width: 220px; margin-right: 20px; border-right: 1px solid #ccc; padding-right: 15px;">
   <h3>Grades</h3>
-  <ul>
+  <ul style="list-style-type: none; padding-left: 0;">
     <li><strong>8th Grade</strong>
       <ul>
         <li><a href="/8th/english/">English</a></li>
@@ -31,15 +31,14 @@ layout: single
 </div>
 
 <!-- Main content -->
-<div style="flex: 1;">
+<div style="flex: 1; padding-left: 10px;">
 
 ## Assignments
 
 {% assign english_posts = site.posts | where: "grade", 8 | where: "subject", "english" | sort: "assignment_number" %}
 
 {% for post in english_posts %}
-- **Assignment {{ post.assignment_number }}:**  
-  [{{ post.title }}]({{ post.url }})
+- **Assignment {{ post.assignment_number }}:** [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
 </div>
