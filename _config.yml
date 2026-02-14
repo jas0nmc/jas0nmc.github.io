@@ -2,11 +2,11 @@
 title: "My Portfolio"
 email: ""
 description: "Assignments and projects organized by grade and subject"
-baseurl: "" # keep empty if hosted at https://jas0nmc.github.io
+baseurl: ""
 url: "https://jas0nmc.github.io"
 
 # Use remote theme so GitHub Pages finds Minimal Mistakes
-remote_theme: mmistakes/minimal-mistakes@4.32.0
+remote_theme: "mmistakes/minimal-mistakes@4.31.0"
 
 # Build settings
 sass:
