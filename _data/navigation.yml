@@ -1,6 +1,6 @@
 main:
   - title: "Grades"
-    url: "#"
+    url: "#"      # <-- must be "#" to enable dropdown hover
     children:
       - title: "8th Grade"
         url: /8th/
