@@ -6,7 +6,7 @@ layout: single
 
 <div style="display: flex; flex-wrap: nowrap;">
 
-<!-- Sidebar -->
+<!-- Left sidebar -->
 <div style="width: 220px; margin-right: 20px; border-right: 1px solid #ccc; padding-right: 15px;">
   <h3>Grades</h3>
   <ul style="list-style-type: none; padding-left: 0;">
@@ -36,6 +36,8 @@ layout: single
 ## Subjects
 
 - [English](/8th/english/)
+- [Math](/8th/math/)
+- [Science](/8th/science/)
 
 </div>
 </div>
