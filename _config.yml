@@ -5,8 +5,8 @@ description: "Assignments and projects organized by grade and subject"
 baseurl: "" # leave empty if hosted at https://jas0nmc.github.io
 url: "https://jas0nmc.github.io"
 
-# Use Slate theme
-theme: jekyll-theme-slate
+# Theme
+theme: slate
 
 # Build settings
 sass:
@@ -21,4 +21,4 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: default
+      layout: single
