@@ -42,3 +42,5 @@ defaults:
         enabled: true
       
 navigation: main
+remote_theme: mmistakes/minimal-mistakes
+
