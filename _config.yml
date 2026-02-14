@@ -40,3 +40,5 @@ defaults:
       layout: single
       sidebar:
         enabled: true
+      
+navigation: main
