@@ -5,7 +5,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: Jason Mc
+  name: Jason 
 
 minimal_mistakes_skin: default
 
