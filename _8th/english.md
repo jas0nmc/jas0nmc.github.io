@@ -4,42 +4,28 @@ permalink: /8th/english/
 layout: single
 ---
 
-<div style="display: flex; flex-wrap: nowrap;">
+<div class="page-with-sidebar" style="display:flex; flex-wrap:nowrap;">
 
-<!-- Left sidebar -->
-<div style="width: 220px; margin-right: 20px; border-right: 1px solid #ccc; padding-right: 15px;">
-  <h3>Grades</h3>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li><strong>8th Grade</strong>
-      <ul>
-        <li><a href="/8th/english/">English</a></li>
-        <li><a href="/8th/math/">Math</a></li>
-        <li><a href="/8th/science/">Science</a></li>
-      </ul>
-    </li>
-    <li><strong>9th Grade</strong>
-      <ul>
-        <li><a href="/9th/english/">English</a></li>
-      </ul>
-    </li>
-    <li><strong>10th Grade</strong>
-      <ul>
-        <li><a href="/10th/english/">English</a></li>
-      </ul>
-    </li>
-  </ul>
-</div>
+  {% include sidebar-grades.html %}
 
-<!-- Main content -->
-<div style="flex: 1; padding-left: 10px;">
+  <div style="flex:1; padding-left:10px;">
 
-## Assignments
+    <!-- Hero / Page Intro -->
+    <div style="background-color:#f0f8ff; padding:28px; border-radius:8px; margin-bottom:18px; text-align:center;">
+      <h1 style="color:#0d6efd; margin-bottom:10px;">8th Grade English - My Portfolio</h1>
+      <p style="color:#333; font-size:1.05em; max-width:720px; margin:0 auto;">
+        Browse all 8th Grade English assignments here. Assignments are numbered for easy reference.
+      </p>
+    </div>
 
-{% assign english_posts = site.posts | where: "grade", 8 | where: "subject", "english" | sort: "assignment_number" %}
+    <!-- Assignments List -->
+    <h2>Assignments</h2>
+    {% assign english_posts = site.posts | where: "grade", 8 | where: "subject", "english" | sort: "assignment_number" %}
+    <ul>
+    {% for post in english_posts %}
+      <li><strong>Assignment {{ post.assignment_number }}:</strong> <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
 
-{% for post in english_posts %}
-- **Assignment {{ post.assignment_number }}:** [{{ post.title }}]({{ post.url }})
-{% endfor %}
-
-</div>
+  </div>
 </div>
