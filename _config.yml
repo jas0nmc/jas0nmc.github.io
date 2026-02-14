@@ -1,21 +1,17 @@
-# Site settings
 title: "My Portfolio"
 email: ""
 description: "Assignments and projects organized by grade and subject"
-baseurl: ""
+baseurl: "" 
 url: "https://jas0nmc.github.io"
 
-# Use remote theme so GitHub Pages finds Minimal Mistakes
-remote_theme: "mmistakes/minimal-mistakes@4.31.0"
+theme: jekyll-theme-primer
 
-# Build settings
 sass:
   style: compressed
 
 plugins:
   - jekyll-feed
 
-# Defaults for posts
 defaults:
   - scope:
       path: ""
