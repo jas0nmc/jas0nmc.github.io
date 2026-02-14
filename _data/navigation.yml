@@ -1,6 +1,6 @@
 main:
   - title: "Grades"
-    url: "#"      # <-- must be "#" to enable dropdown hover
+    url: "#"  # top menu itself is not clickable
     children:
       - title: "8th Grade"
         url: /8th/
