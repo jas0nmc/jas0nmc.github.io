@@ -3,6 +3,8 @@ title: "What I Did on Summer Vacation"
 assignment_number: 1
 subject: english
 grade: 8
+layout: single
+date: 2026-02-14
 ---
 
 This summer was all about swimming and relaxing. I didn’t go anywhere exciting, but I spent a lot of time swimming. It was the best way to cool off and also something that I never got bored with.
