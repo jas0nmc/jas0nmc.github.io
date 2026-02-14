@@ -1,0 +1,6 @@
+main:
+  - title: "8th Grade"
+    url: /8th/
+    children:
+      - title: "English"
+        url: /8th/english/
