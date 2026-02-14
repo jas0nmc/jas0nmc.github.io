@@ -1,0 +1,27 @@
+---
+# Custom CSS for top-left menu and decoration
+---
+
+/* Align top menu to left */
+.navbar-nav {
+  justify-content: flex-start !important; 
+}
+
+/* Dropdown styling */
+.navbar-nav .dropdown-menu {
+  background-color: #f0f8ff; /* light blue */
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Hover effect on dropdown items */
+.navbar-nav .dropdown-menu a.dropdown-item:hover {
+  background-color: #cce7ff; /* slightly darker blue */
+  color: #000;
+}
+
+/* Optional: add some spacing/padding to links */
+.navbar-nav > li > a {
+  padding: 10px 15px;
+  font-weight: 600;
+}
